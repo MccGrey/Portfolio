@@ -1,12 +1,103 @@
-@import "./partials/border";
-@import "./partials/button";
 @import "./partials/color";
 @import "./partials/general";
 @import "./partials/grid";
-@import "./partials/image";
-@import "./partials/shadow";
-@import "./partials/spacer";
 @import "./partials/typo";
+@import "./partials/spacer";
+@import "./partials/image";
+@import "./partials/button";
+@import "./partials/border";
+@import "./partials/shadow";
+@import "./partials/color";
+
+
+
+
+
+
+
+
+// home
+header {
+    padding: 1.5rem 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+
+    .navbar {
+        
+        a {
+            color: white;
+            padding: 10px 20px;
+
+            &:hover {
+                background: white;
+                color: $lightorange;
+            }
+        }
+
+        .button {
+            background: $orange;
+            border-radius: 30px;
+
+            &:hover {
+                background: none;
+                border: 1px solid $lightorange;
+                color: $lightorange;
+            }
+        }
+    }
+}
+
+#burger {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    #burger {
+        display: block;
+    }
+
+    .navbar {
+        background: $halfblack;
+        position: absolute;
+        top: 99.2%;
+        right: -100%;
+        width: 70%;
+        height: 100vh;
+
+        a {
+            text-align: center;
+            display: block;
+            margin-top: 7.5rem;
+        }
+
+        .button {
+            margin: 7.5rem 25%;
+        }
+
+        &.active {
+            right: 0;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
