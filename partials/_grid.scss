@@ -65,6 +65,149 @@
     overflow: hidden;
 }
 
+[class^="col"] {
+    margin: 0 1.5%;
+} 
+
+@for $i from 1 through 12 {
+    .col#{$i} {
+        width: (100%/ (12 / $i))-3%;
+    }
+}
+
+@for $i from 1 through 12 {
+    .nmcol#{$i} {
+        width: (100%/ (12 / $i));
+    }
+}
+
+@media screen and(max-width: 1024px) {
+    @for $i from 1 through 12 {
+        .col#{$i}-md {
+            width: (100%/ (12 / $i));
+        }
+    }
+
+    .col-reverse-md {
+        flex-direction: column-reverse;
+    }
+
+    .flexcol-md {
+        flex-direction: column;
+    }
+
+    .jc {
+
+        &-center-nd {
+            justify-content: center;
+        }
+
+        &-between-md {
+            justify-content: space-between;
+        }
+
+        &-around-md {
+            justify-content: space-around;
+        }
+
+        &-evenly-md {
+            justify-content: space-evenly;
+        }
+    }
+
+    .ta {
+        &-center-md {
+            text-align: center;
+        }
+
+        &-right-md {
+            text-align: right;
+        }
+
+        &-justify-md {
+            text-align: justify;
+        }
+    }
+
+    .flex-md {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    @for $i from 1 through 12 {
+        .col#{$i}-s {
+            width: (10%/ (12 / $i))-3%;
+        }
+    }
+
+    @for $i from 1 through 12 {
+        .nmcol#{$i}-s {
+            width: (100%/ (12 / $i));
+        }
+    }
+
+    .col-reverse-s {
+        flex-direction: column-reverse;
+    }
+
+    .flexcol-s {
+        flex-direction: column;
+    }
+
+    .jc {
+
+        &-center-s {
+            justify-content: center;
+        }
+
+        &-between-s {
+            justify-content: space-between;
+        }
+
+        &-around-s {
+            justify-content: space-around;
+        }
+
+        &-evenly-s {
+            justify-content: space-evenly;
+        }
+    }
+
+    .ai-center-s {
+        align-items: center;
+    }
+
+    .ta {
+        &-center-s {
+            text-align: center;
+        }
+
+        &-right-s {
+            text-align: right;
+        }
+
+        &-justfiy-s {
+            text-align: justify;
+        }
+    }
+
+    .flex-s {
+        display: flex;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
