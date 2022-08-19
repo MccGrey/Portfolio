@@ -29,7 +29,7 @@
 }
 
 .lightorange {
-  background: #eb7b5b;
+  color: #eb7b5b;
 }
 
 .black {
@@ -310,7 +310,7 @@ p, h4, h5 {
     display: flex;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .col1-s {
     width: -2.1666666667%;
   }
@@ -662,7 +662,7 @@ p, h4, h5 {
     font-size: 15rem;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .size1-s {
     font-size: 1rem;
   }
@@ -2009,7 +2009,7 @@ p, h4, h5 {
     padding-left: 15rem;
   }
 }
-@media screen and (mx-width: 600px) {
+@media screen and (mx-width: 768px) {
   .spacetop0-s {
     margin-top: 0rem;
   }
@@ -3223,7 +3223,7 @@ p, h4, h5 {
 }
 
 .lightorange {
-  background: #eb7b5b;
+  color: #eb7b5b;
 }
 
 .black {
@@ -3275,7 +3275,26 @@ header .navbar .button:hover {
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+.talk {
+  font-size: 1.5rem;
+}
+.talk:hover a, .talk:hover i {
+  font-size: 2rem;
+}
+
+.rotate {
+  padding-left: 15rem;
+  transform: rotate(90deg);
+  letter-spacing: 4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+@media screen and (max-width: 1024px) {
+  .rotate {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
   #burger {
     display: block;
   }

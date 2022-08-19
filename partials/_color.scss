@@ -36,7 +36,7 @@ $halfblack: rgba(0, 0, 0, 0.5);
 }
 
 .lightorange {
-    background: $lightorange;
+    color: $lightorange;
 }
 
 .black {
@@ -64,7 +64,7 @@ $halfblack: rgba(0, 0, 0, 0.5);
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 414px) {
     
 }
 

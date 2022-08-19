@@ -96,7 +96,7 @@
     }
 }
 
-@media screen and (mx-width: 600px) {
+@media screen and (mx-width: 768px) {
     @for $i from 0 through 15 {
         .spacetop#{$i}-s {
             margin-top: $i * 1rem;

@@ -134,7 +134,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     @for $i from 1 through 12 {
         .col#{$i}-s {
             width: (10%/ (12 / $i))-3%;

@@ -53,7 +53,32 @@ header {
     display: none;
 }
 
-@media screen and (max-width: 600px) {
+//#burger
+.talk {
+    font-size: 1.5rem;
+
+    &:hover {
+        a,i {
+            font-size: 2rem;
+        }
+    }
+}
+
+.rotate {
+    padding-left: 15rem;
+    transform: rotate(90deg);
+    letter-spacing: 4rem;
+    color: $halfwhite;
+}
+
+@media screen and (max-width: 1024px) {
+    //home
+    .rotate {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
     #burger {
         display: block;
     }
