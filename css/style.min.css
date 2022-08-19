@@ -3325,11 +3325,6 @@ header .navbar .button:hover {
   color: rgba(255, 255, 255, 0.5);
 }
 
-@media screen and (max-width: 1024px) {
-  .rotate {
-    display: none;
-  }
-}
 .CV {
   padding: 1rem 2rem;
   background: linear-gradient(214.02deg, #ea5f5f 6.04%, #eeaa55 92.95%);
@@ -3341,6 +3336,23 @@ header .navbar .button:hover {
   color: #eb7b5b;
 }
 
+.box {
+  padding: 6rem 2.5rem;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.box:hover {
+  border: 1px solid #eb7b5b;
+  background: transparent;
+  color: #eb7b5b;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .rotate {
+    display: none;
+  }
+}
 @media screen and (max-width: 768px) {
   #burger {
     display: block;
@@ -3363,5 +3375,10 @@ header .navbar .button:hover {
   }
   .navbar.active {
     right: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .box:nth-child(even) {
+    display: none;
   }
 }

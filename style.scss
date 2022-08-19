@@ -71,13 +71,6 @@ header {
     color: $halfwhite;
 }
 
-@media screen and (max-width: 1024px) {
-    //home
-    .rotate {
-        display: none;
-    }
-}
-
 //about
 .CV {
     padding: 1rem 2rem;
@@ -88,6 +81,27 @@ header {
         border: 1px solid $lightorange;
         background: transparent;
         color: $lightorange;
+    }
+}
+
+// services
+.box {
+    padding: 6rem 2.5rem;
+    border-radius: 50px;
+    transition: .5s;
+
+    &:hover {
+        border: 1px solid $lightorange;
+        background: transparent;
+        color: $lightorange;
+        cursor: pointer;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    //home
+    .rotate {
+        display: none;
     }
 }
 
@@ -120,6 +134,12 @@ header {
     }
 }
 
+@media screen and (max-width: 414px) {
+    // services
+    .box:nth-child(even) {
+        display: none;
+    }
+}
 
 
 
