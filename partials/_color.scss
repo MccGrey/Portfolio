@@ -19,3 +19,54 @@ $halfblack: rgba(0, 0, 0, 0.5);
     background-position: center;
 }
 
+.bg-darkblue {
+    background: $darkblue;
+}
+
+.bg-orange {
+    background: $orange;
+}
+
+.bg-lightorange {
+    background: $lightorange;
+}
+
+.bg-halfblack {
+    background: $halfblack;
+}
+
+.lightorange {
+    background: $lightorange;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.halfwhite {
+    color: $halfwhite;
+}
+
+.halfblack {
+    color: $halfblack;
+}
+
+.quarterwhite {
+    color: $quarterwhite;
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+
+@media screen and (max-width: 600px) {
+    
+}
+
+
+
