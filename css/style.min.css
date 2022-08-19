@@ -3294,6 +3294,17 @@ header .navbar .button:hover {
     display: none;
   }
 }
+.CV {
+  padding: 1rem 2rem;
+  background: linear-gradient(214.02deg, #ea5f5f 6.04%, #eeaa55 92.95%);
+  border-radius: 50px;
+}
+.CV:hover {
+  border: 1px solid #eb7b5b;
+  background: transparent;
+  color: #eb7b5b;
+}
+
 @media screen and (max-width: 768px) {
   #burger {
     display: block;

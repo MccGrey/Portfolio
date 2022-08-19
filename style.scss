@@ -78,6 +78,19 @@ header {
     }
 }
 
+//about
+.CV {
+    padding: 1rem 2rem;
+    background: $orange;
+    border-radius: 50px;
+
+    &:hover {
+        border: 1px solid $lightorange;
+        background: transparent;
+        color: $lightorange;
+    }
+}
+
 @media screen and (max-width: 768px) {
     #burger {
         display: block;
