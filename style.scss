@@ -126,6 +126,25 @@ header {
     }
 }
 
+//contact
+.share {
+    a{
+
+    color: white;
+    background: $halfwhite;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    line-height: 5rem;
+    margin: .5rem;
+
+    &:hover {
+        background: $orange;
+        transform: scale(1.2);
+    }
+    }
+}
+
 @media screen and (max-width: 1024px) {
     //home
     .rotate {
@@ -171,6 +190,23 @@ header {
     //portfolio 
     .port:nth-child(even) {
         display: none;
+    }
+
+    .number {
+        background: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+        .left, .item {
+            border-left: none;
+            padding-left: 0;
+        }
+
+        .item:nth-child(2) {
+            margin: 3rem 0;
+        }
+
     }
 }
 

@@ -3374,6 +3374,20 @@ header .navbar .button:hover {
   cursor: pointer;
 }
 
+.share a {
+  color: white;
+  background: rgba(255, 255, 255, 0.5);
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  margin: 0.5rem;
+}
+.share a:hover {
+  background: linear-gradient(214.02deg, #ea5f5f 6.04%, #eeaa55 92.95%);
+  transform: scale(1.2);
+}
+
 @media screen and (max-width: 1024px) {
   .rotate {
     display: none;
@@ -3409,5 +3423,18 @@ header .navbar .button:hover {
   }
   .port:nth-child(even) {
     display: none;
+  }
+  .number {
+    background: none;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .number .left, .number .item {
+    border-left: none;
+    padding-left: 0;
+  }
+  .number .item:nth-child(2) {
+    margin: 3rem 0;
   }
 }
