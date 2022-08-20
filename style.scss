@@ -107,6 +107,24 @@ header {
     padding: 3rem;
 }
 
+.item {
+    padding-left: 3rem;
+    border-left: 1px solid white;
+
+    &:hover {
+        color: $halfwhite;
+        cursor: pointer;
+    }
+}
+
+.left {
+    padding-left: 3rem;
+
+    &:hover {
+        color: $halfwhite;
+        cursor: pointer;
+    }
+}
 
 @media screen and (max-width: 1024px) {
     //home

@@ -3357,6 +3357,23 @@ header .navbar .button:hover {
   padding: 3rem;
 }
 
+.item {
+  padding-left: 3rem;
+  border-left: 1px solid white;
+}
+.item:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.left {
+  padding-left: 3rem;
+}
+.left:hover {
+  color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
 @media screen and (max-width: 1024px) {
   .rotate {
     display: none;
