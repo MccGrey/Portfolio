@@ -3348,6 +3348,15 @@ header .navbar .button:hover {
   cursor: pointer;
 }
 
+.port:hover {
+  transform: scale(1.2);
+}
+
+.number {
+  border-radius: 25px;
+  padding: 3rem;
+}
+
 @media screen and (max-width: 1024px) {
   .rotate {
     display: none;
@@ -3379,6 +3388,9 @@ header .navbar .button:hover {
 }
 @media screen and (max-width: 414px) {
   .box:nth-child(even) {
+    display: none;
+  }
+  .port:nth-child(even) {
     display: none;
   }
 }

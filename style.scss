@@ -98,6 +98,16 @@ header {
     }
 }
 
+.port:hover {
+    transform: scale(1.2);
+}
+
+.number {
+    border-radius: 25px;
+    padding: 3rem;
+}
+
+
 @media screen and (max-width: 1024px) {
     //home
     .rotate {
@@ -139,7 +149,14 @@ header {
     .box:nth-child(even) {
         display: none;
     }
+
+    //portfolio 
+    .port:nth-child(even) {
+        display: none;
+    }
 }
+
+
 
 
 
